@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+/*标题*/
+.fontTitle{
+	color:#000000;		
+}
+/*分页*/
+.fontPage{
+	color:#4e4e4e;		
+}
+/*必填项*/
+.fontStar{
+	color:#DA6426;
+}
+
+/*自定义CSS伪类 class="footer-set-css"*/
+a.footer-set-css:link {color:#FFFFFF}    /*未访问的链接 */
+a.footer-set-css:visited {color: #FFFFFF} /* 已访问的链接 */
+a.footer-set-css:hover {color: #DA6426}   /* 鼠标移动到链接上 */
+a.footer-set-css:active {color: #800080}  /* 选定的链接 */
+a.footer-set-css{text-decoration:underline} /*设置显示下划线*/
+
+/*查看详情文本链接*/
+a.text-link:link {color: #DA6426}    /*未访问的链接 */
+a.text-link:visited {color: #7B796A} /* 已访问的链接 */
+a.text-link:hover {color: #DE733B}   /* 鼠标移动到链接上 */
+a.text-link:active {color: #DA6426}  /* 选定的链接 */
+
+/*查看详情文本链接*/
+a.text-title:link {color: #808080}    /*未访问的链接 */
+a.text-title:visited {color: #808080} /* 已访问的链接 */
+a.text-title:hover {color: #DA6426}   /* 鼠标移动到链接上 */
+a.text-title:active {color: #DA6426}  /* 选定的链接 */
+
+/*右列表*/
+a.nav-right-color:link{color:#DA6426;}
+a.nav-right-color:visited{color:#DA6426;}
+a.nav-right-color:hover{color:#ff0000;}
+a.nav-right-color:active{color:#ff0000;}
+a.nav-right-color{text-decoration:underline}
+
+
+
+
